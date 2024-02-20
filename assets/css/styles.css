@@ -21,34 +21,42 @@ h3 {
 }
 header {
     display:inline;
+    text-align: center;
 }
-nav ul li a {
-    text-decoration: none;
-}
+
 
 nav ul {
     display:flex;
     justify-content: space-around;
     list-style: none;
+    font-size: 1rem;
+ 
 
 }
+nav ul li  {
+    text-decoration: none;
+}
 /*media query for mobile*/
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 375px) {
     body {
     background-color: pink;
 
 }
+
+
 }
 /*media query for tablet*/
-@media screen and (min-width: 200px) and (max-width: 500px) {
+@media screen and (min-width: 375px) and (max-width: 770) {
     body {
-        background-color: cornflowerblue; 
+        background-color: rgb(255, 126, 244); 
     }   
     }
+
+ 
 /*media query for desktop*/
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 770px) {
     body {
-    background-color: rgb(168, 24, 48);
+    background-color: rgb(193, 78, 166);
 
 }
 }
