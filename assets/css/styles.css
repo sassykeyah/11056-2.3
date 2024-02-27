@@ -1,62 +1,98 @@
 body {
-    background-color: beige;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(42, 82, 59);
+  background-color: rgb(147, 216, 228);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(42, 82, 59);
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
+header {
+  display: inline;
+  text-align: center;
 }
 
 h1 {
-    font-size: 2.5rem;
-
+  font-size: 2.5rem;
+  text-align: center;
 }
 
 h2 {
-    font-size: 2.3rem;
-
+  font-size: 2rem;
+  text-align: center;
 }
 
 h3 {
-    font-size: 2.1rem;
-
+  font-size: 1.5rem;
+  text-align: center;
 }
-header {
-    display:inline;
-    text-align: center;
+h4 {
+  font-size: 1rem;
+  text-align: center;
 }
 
+h5 {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+h6 {
+  font-size: 0.6rem;
+  text-align: center;
+}
 
 nav ul {
-    display:flex;
-    justify-content: space-around;
-    list-style: none;
-    font-size: 1rem;
- 
-
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 1rem;
 }
-nav ul li  {
-    text-decoration: none;
+nav ul a {
+  text-decoration: none;
+  color: beige;
+}
+
+main ul {
+  font-size: 0.9rem;
+  text-align:center;
+}
+
+
+main ol {
+  font-size: 0.9rem;
+  text-align:center;
+}
+
+main dl dt {
+  font-size: 1rem; 
+  text-align:center;
+}
+main dl dd {
+  font-size: 0.8rem;
+}
+
+
+footer {
+    font-size: 0.75rem;
+    color: beige;
 }
 /*media query for mobile*/
 @media screen and (max-width: 375px) {
-    body {
+  body {
     background-color: pink;
-
-}
-
-
+  }
 }
 /*media query for tablet*/
 @media screen and (min-width: 375px) and (max-width: 770) {
-    body {
-        background-color: rgb(255, 126, 244); 
-    }   
-    }
+  body {
+    background-color: rgb(255, 126, 244);
+  }
+}
 
- 
 /*media query for desktop*/
 @media screen and (min-width: 770px) {
-    body {
+  body {
     background-color: rgb(193, 78, 166);
-
-}
+  }
 }
